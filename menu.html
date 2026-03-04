@@ -1,0 +1,648 @@
+<!-- START WINE LIST HTML FOR TILDA -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>МЕНЮ | ТОТ ЕЩЁ ГУСЬ</title>
+<style>
+/* Основной контейнер */
+.tm-menu-wrapper {
+   font-family: 'Georgia', 'Times New Roman', serif;
+    max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+        color: #333;
+        background-color: #fff;
+        line-height: 1.5;
+
+/* Заголовки разделов */
+.tm-section-title {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 40px 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #333;
+    text-align: center;
+}
+/* Typography */
+    .wl-main-title {
+        text-align: center;
+        font-size: 36px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-bottom: 40px;
+        color: #000;
+        padding-bottom: 20px;
+}		
+.tm-subsection-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 25px 0 15px 0;
+    color: #555;
+    text-align: left;
+}
+
+/* Карточка блюда */
+.tm-item {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Верхняя часть: Название и Цена */
+.tm-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+}
+
+.tm-item-name {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    padding-right: 15px;
+    color: #000;
+}
+
+.tm-item-price {
+    font-size: 18px;
+    font-weight: 600;
+    white-space: nowrap;
+    color: #000;
+}
+
+/* Описание блюда */
+.tm-item-desc {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    font-weight: 300;
+}
+
+/* Адаптивность для мобильных */
+@media (max-width: 640px) {
+    .tm-menu-wrapper {
+        padding: 15px;
+    }
+    .tm-section-title {
+        font-size: 20px;
+    }
+    .tm-item-header {
+        flex-direction: row; /* Оставляем в строку, но переносим при необходимости */
+    }
+    .tm-item-name {
+        font-size: 16px;
+        flex: 1 1 auto;
+    }
+    .tm-item-price {
+        font-size: 16px;
+        flex: 0 0 auto;
+    }
+    .tm-item-desc {
+        font-size: 13px;
+    }
+}
+</style>
+
+<div class="tm-menu-wrapper">
+<h1 class="wl-main-title">МЕНЮ ТОТ ЕЩЁ ГУСЬ</h1>
+    <!-- Section 1: Горячие блюда -->
+    <h2 class="tm-section-title">Горячие блюда</h2>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Ребро Копченое</h3>
+            <span class="tm-item-price">2200 ₽</span>
+        </div>
+        <p class="tm-item-desc">Говяжье ребро, приготовленное на низкой температуре на ольховой стружке.<br> Подается с соусом из розового перца и пюре из пастернака.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Оссобуко</h3>
+            <span class="tm-item-price">2200 ₽</span>
+        </div>
+        <p class="tm-item-desc">Стейк из поперечного разреза говяжьей голени с мозговой косточкой, приготовленный на низкой температуре.<br> Подаётся с соусом и гарниром из жареного фенхеля.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Шея ягнёнка</h3>
+            <span class="tm-item-price">3900 ₽</span>
+        </div>
+        <p class="tm-item-desc">Томленая на низкой температуре с солодовым соусом и бренди.<br> Подаётся с жареным луком порей и бейби-картофелем (рекомендуется на двоих).</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Вымя гриль</h3>
+            <span class="tm-item-price">1450 ₽</span>
+        </div>
+        <p class="tm-item-desc">Жареное говяжье вымя с перечным соусом и цветной капустой.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Язык молочного теленка</h3>
+            <span class="tm-item-price">990 ₽</span>
+        </div>
+        <p class="tm-item-desc">Глазированный язык теленка с опаленным романо и луком-конфи.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Кот дю Бёф</h3>
+            <span class="tm-item-price">3950 ₽</span>
+        </div>
+        <p class="tm-item-desc">Говяжий антрекот на кости. Подаётся с томатным чимичури и печёным чесноком (рекомендуется на двоих).</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Утиная грудка Магре</h3>
+            <span class="tm-item-price">1150 ₽</span>
+        </div>
+        <p class="tm-item-desc">Жареная утиная грудка, приготовленная в лучших традициях французской кухни.<br> Подается с бейби морковкой и цитрусовым соусом.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Рябчик</h3>
+            <span class="tm-item-price">1900 ₽</span>
+        </div>
+        <p class="tm-item-desc">Целая птичка почти без костей со спагетти из корня сельдерея.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Телячий желудок со сморчками</h3>
+            <span class="tm-item-price">1250 ₽</span>
+        </div>
+        <p class="tm-item-desc">Желудок, томленный в грибном бульоне. Подаётся со сморчками в соусе из мадеры.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Почки ягненка в хересе</h3>
+            <span class="tm-item-price">950 ₽</span>
+        </div>
+        <p class="tm-item-desc">Почки молодого ягненка, приготовленные в хересе Pedro Ximenez и солодовом соусе.<br> Подается со спагетти из цуккини.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Кости</h3>
+            <span class="tm-item-price">1750 ₽</span>
+        </div>
+        <p class="tm-item-desc">«Сахарная» мозговая говяжья кость, запечённая с розмарином и чесноком.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Бараньи яйца с соусом Субиз</h3>
+            <span class="tm-item-price">980 ₽</span>
+        </div>
+        <p class="tm-item-desc">Семенники ягненка, жареные с розмарином и чесноком.<br> Подаются с соусом Субиз и петрушкой-фри.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Стейк из говяжьей печени</h3>
+            <span class="tm-item-price">1350 ₽</span>
+        </div>
+        <p class="tm-item-desc">Говяжья печень гриль прожарки Medium Rare с лимонным луком и медово-горчичным соусом.</p>
+    </div>
+
+    <!-- Section 2: Тапасы и брускетты -->
+    <h2 class="tm-section-title">Тапасы и брускетты</h2>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Крекер с анчоусом и цуккини</h3>
+            <span class="tm-item-price">140 ₽</span>
+        </div>
+        <p class="tm-item-desc">С мягким сыром.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Крекер с сырным муссом</h3>
+            <span class="tm-item-price">140 ₽</span>
+        </div>
+        <p class="tm-item-desc">Из палтуса и тунца и щучьей икрой.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Брускетта с луком конфи</h3>
+            <span class="tm-item-price">420 ₽</span>
+        </div>
+        <p class="tm-item-desc">С мягким сыром.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Брускетта с опалённым тунцом</h3>
+            <span class="tm-item-price">680 ₽</span>
+        </div>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Брускетта с гусем «Тот еще гусь»</h3>
+            <span class="tm-item-price">890 ₽</span>
+        </div>
+        <p class="tm-item-desc">Томленный в хересе, вяленые томаты, апельсиновый конфитюр на поджаренной бриошь.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Утиные «суси» (4 шт.)</h3>
+            <span class="tm-item-price">590 ₽</span>
+        </div>
+        <p class="tm-item-desc">Тонкие слайсы 12-ти дневной вяленой утиной грудки на сушеной черной сливе.</p>
+    </div>
+
+    <!-- Section 3: Холодные закуски -->
+    <h2 class="tm-section-title">Холодные закуски</h2>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Пате из утиной печени с Фуа-гра</h3>
+            <span class="tm-item-price">950 ₽</span>
+        </div>
+        <p class="tm-item-desc">Подаётся с луком конфи, томлёном в утином жиру.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Паштет из говяжьей печени</h3>
+            <span class="tm-item-price">560 ₽</span>
+        </div>
+        <p class="tm-item-desc">Подаётся со сливочным эспуме из белых грибов.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Риет из атлантической скумбрии</h3>
+            <span class="tm-item-price">860 ₽</span>
+        </div>
+        <p class="tm-item-desc">Подаётся с домашней Рикоттой с Тепенаде, щучьей икрой и тостами из Бриошь.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Ливанский хумус</h3>
+            <span class="tm-item-price">580 ₽</span>
+        </div>
+        <p class="tm-item-desc">Подаётся с маринованным Романо и артишоками.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Салат с крабом</h3>
+            <span class="tm-item-price">1750 ₽</span>
+        </div>
+        <p class="tm-item-desc">Филе 1-й фаланги краба с чатни из манго, клубникой и лимонно-сливочным эспуме.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Большой зеленый салат</h3>
+            <span class="tm-item-price">950 ₽</span>
+        </div>
+        <p class="tm-item-desc">Из разных листьев салата, авокадо, молодого стручкового горошка, брокколи,<br> с цуккини кунжутной заправкой в тайском стиле.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Pâté en croute</h3>
+            <span class="tm-item-price">980 ₽</span>
+        </div>
+        <p class="tm-item-desc">Традиционный холодный мясной пирог из мяса тушеного гуся, фермерского петуха, <br>говяжьей вырезки, и запеченного костного мозга приготовленный в лучших традициях лионской кухни.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Говяжий ростбиф</h3>
+            <span class="tm-item-price">980 ₽</span>
+        </div>
+        <p class="tm-item-desc">Слайсы говяжьей вырезки, приготовленной на низкой температуре.<br> Подаётся с печеным чесноком, вялеными томатами и горчичным соусом на ложе из кремового сыра.</p>
+    </div>
+
+    <!-- Section 4: Сырое мясо и рыба -->
+    <h2 class="tm-section-title">Сырое мясо и рыба</h2>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Тартар из говяжьей вырезки</h3>
+            <span class="tm-item-price">980 ₽</span>
+        </div>
+        <p class="tm-item-desc">С мостардой и эспуме из сыра Грано Падано.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Севиче из морского гребешка</h3>
+            <span class="tm-item-price">1850 ₽</span>
+        </div>
+        <p class="tm-item-desc">Сахалинский гребешок с заправкой из огурца и сока юдзу, с фенхелем и виноградом.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Тартар из лосося</h3>
+            <span class="tm-item-price">1350 ₽</span>
+        </div>
+        <p class="tm-item-desc">Лосось с заправкой из Саке, подаётся с эспуме из Биска.</p>
+    </div>
+
+    <!-- Section 5: Горячие закуски -->
+    <h2 class="tm-section-title">Горячие закуски</h2>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Волован À la bourguignonne</h3>
+            <span class="tm-item-price">1450 ₽</span>
+        </div>
+        <p class="tm-item-desc">Хрустящая корзиночка из тонкого слоеного теста, фаршированная бычьими хвостами томленными в Pinot Noir,<br> запеченная с густым сливочным соусом из шляпок белых грибов.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Бюш-Де-Шевр</h3>
+            <span class="tm-item-price">960 ₽</span>
+        </div>
+        <p class="tm-item-desc">Жареный козий сыр с плесенью, подаётся с чатни из хурмы, свежей клубникой и инжирной мастардой.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Киш с крабом</h3>
+            <span class="tm-item-price">950 ₽</span>
+        </div>
+        <p class="tm-item-desc">Традиционный французский горячий тарт из песочного теста <br>с начинкой из морепродуктов и мясом камчатского краба.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Стейк из капусты</h3>
+            <span class="tm-item-price">720 ₽</span>
+        </div>
+        <p class="tm-item-desc">Белокочанная капуста, жареная с ароматными травами, с копченой сметаной.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Французский луковый пирог</h3>
+            <span class="tm-item-price">650 ₽</span>
+        </div>
+        <p class="tm-item-desc">Карамелизированный сливочным маслом и бальзамиком лук шалот<br>на пышном слоеном тесте с рассыпчатой корочкой.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Жареная Фуа-гра</h3>
+            <span class="tm-item-price">2400 ₽</span>
+        </div>
+        <p class="tm-item-desc">Фуа-гра, жареная с фундуком с яблоками в меде и соусом из киви и манго с крутоном.</p>
+    </div>
+
+    <!-- Section 6: Супы -->
+    <h2 class="tm-section-title">Супы</h2>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Французский луковый суп (запеченный)</h3>
+            <span class="tm-item-price">650 ₽</span>
+        </div>
+        <p class="tm-item-desc">Традиционный суп из лука, по классическому лионскому рецепту.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Марсельский суп</h3>
+            <span class="tm-item-price">1250 ₽</span>
+        </div>
+        <p class="tm-item-desc">Густой томатный суп с фенхелем, кальмарами, мидиями, лососем, палтусом и креветками.</p>
+    </div>
+
+    <!-- Section 7: Обычное горячее -->
+    <h2 class="tm-section-title">Обычное горячее</h2>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Филе-миньон со сморчками</h3>
+            <span class="tm-item-price">1850 ₽</span>
+        </div>
+        <p class="tm-item-desc">Говяжья вырезка со сморчками в сливочном соусе и жареным цуккини.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Бефстроганов из говяжьей вырезки</h3>
+            <span class="tm-item-price">1250 ₽</span>
+        </div>
+        <p class="tm-item-desc">Говядина, тушеная в сметано-томатном соусе с коньяком.<br> Подается с пюре из батата и битыми огурцами.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Лосось</h3>
+            <span class="tm-item-price">1650 ₽</span>
+        </div>
+        <p class="tm-item-desc">Филе лосося на коже средней прожарки. <br>Подается с тонкими слайсами жаренного Картофеля со шпинатом.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Палтус</h3>
+            <span class="tm-item-price">1650 ₽</span>
+        </div>
+        <p class="tm-item-desc">Филе палтуса со сливочно-луковом соусом с добавлением Мадейры и пастой фрегола.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Морской гребешок</h3>
+            <span class="tm-item-price">2900 ₽</span>
+        </div>
+        <p class="tm-item-desc">Жареный морской гребешок. Подается с пюре Рамеско Верде и цитрусовой заправкой.</p>
+    </div>
+
+    <!-- Section 8: Постное меню -->
+    <h2 class="tm-section-title">Постное меню</h2>
+
+    <h3 class="tm-subsection-title">Холодные блюда</h3>
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Карпаччо из цветной капусты</h3>
+            <span class="tm-item-price">680 ₽</span>
+        </div>
+        <p class="tm-item-desc">С трюфельной заправкой, муссом из цветной капусты и лепестками миндаля.</p>
+    </div>
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Карпаччо из свеклы</h3>
+            <span class="tm-item-price">620 ₽</span>
+        </div>
+        <p class="tm-item-desc">С соусом «Винегрет», водорослями Нури и кедровыми орешками.</p>
+    </div>
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Ливанский хумус</h3>
+            <span class="tm-item-price">580 ₽</span>
+        </div>
+        <p class="tm-item-desc">Подаётся с маринованным Романо и артишоками.</p>
+    </div>
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Большой зеленый салат</h3>
+            <span class="tm-item-price">950 ₽</span>
+        </div>
+        <p class="tm-item-desc">Из разных листьев салата, авокадо, молодого стручкового горошка, брокколи,<br> с цуккини кунжутной заправкой в тайском стиле.</p>
+    </div>
+
+    <h3 class="tm-subsection-title">Суп</h3>
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Суп из чечевицы</h3>
+            <span class="tm-item-price">650 ₽</span>
+        </div>
+        <p class="tm-item-desc">С карри на кокосовых сливках. Подается с лаймом, мятой и кинзой.</p>
+    </div>
+
+    <h3 class="tm-subsection-title">Горячее</h3>
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Картофельный рости с грибами</h3>
+            <span class="tm-item-price">850 ₽</span>
+        </div>
+        <p class="tm-item-desc">Швейцарское блюдо из жаренного тертого картофеля с вешенками и постной сметаной с четверговой солью.</p>
+    </div>
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Стейк из капусты</h3>
+            <span class="tm-item-price">620 ₽</span>
+        </div>
+        <p class="tm-item-desc">Белокочанная капуста, жареная с ароматными травами, с копченой постной сметаной.</p>
+    </div>
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Фетучини с белыми грибами</h3>
+            <span class="tm-item-price">990 ₽</span>
+        </div>
+        <p class="tm-item-desc">С соусом из уваренных белых грибов и оливкового масла.</p>
+    </div>
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Пшённая каша</h3>
+            <span class="tm-item-price">690 ₽</span>
+        </div>
+        <p class="tm-item-desc">Томленная каша из пшена с мускатной тыквой и вялеными томатами.</p>
+    </div>
+
+    <h3 class="tm-subsection-title">Десерт</h3>
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Сладкая тыква</h3>
+            <span class="tm-item-price">750 ₽</span>
+        </div>
+        <p class="tm-item-desc">Запеченная тыква с соусом Маракуйя и карамелизированным орехом Пекан.</p>
+    </div>
+
+    <!-- Section 9: Десерт -->
+    <h2 class="tm-section-title">Десерт</h2>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Crème Brûlée</h3>
+            <span class="tm-item-price">950 ₽</span>
+        </div>
+        <p class="tm-item-desc">Классический французский сливочный десерт с добавлением Фуа-Гра.<br> Подается со свежей клубникой.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Бейлиз мильфей</h3>
+            <span class="tm-item-price">790 ₽</span>
+        </div>
+        <p class="tm-item-desc">Воздушные коржи из бездрожжевого теста с бейлиз-кремом и малиновым соусом.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Персиковый тарт с Горгонзолой</h3>
+            <span class="tm-item-price">760 ₽</span>
+        </div>
+        <p class="tm-item-desc">Слоёный пирог с персиком, карамелизированным в бальзамическом соусе с Горгонзолой. <br>Подаётся с шариком ванильного мороженного.</p>
+    </div>
+
+    <!-- Section 10: Безалкогольные напитки -->
+    <h2 class="tm-section-title">Безалкогольные напитки</h2>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Лимонад 0,3л: Цитрусовый</h3>
+            <span class="tm-item-price">390 ₽</span>
+        </div>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Натуральный ягодный морс</h3>
+            <span class="tm-item-price">390 ₽</span>
+        </div>
+        <p class="tm-item-desc">Из смеси ягод - малины, клубники и чёрной смородины.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Вода «Sairme» 0,5л</h3>
+            <span class="tm-item-price">300 ₽</span>
+        </div>
+        <p class="tm-item-desc">Без газа / с газом.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Чай 900 мл</h3>
+            <span class="tm-item-price">450 ₽</span>
+        </div>
+        <p class="tm-item-desc">Черный, зеленый сенча, зеленый с жасмином, молочный улун, бергамот, травяной.</p>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Клюквенный Чай 900 мл</h3>
+            <span class="tm-item-price">950 ₽</span>
+        </div>
+    </div>
+
+    <div class="tm-item">
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Кофе</h3>
+        </div>
+		
+        <div class="tm-item-header">
+            <h3 class="tm-item-name">Американо, эспрессо</h3>
+            <span class="tm-item-price">250 ₽</span>
+		</div>  
+          <div class="tm-item-header">  
+			<h3 class="tm-item-name">Капучино, двойной эспрессо</h3>
+            <span class="tm-item-price">450 ₽</span>
+			</div> 
+           <div class="tm-item-header"> 
+            <h3 class="tm-item-name">Латте</h3>
+            <span class="tm-item-price">550 ₽</span>
+           </div> 
+    </div>
+</div>
+</body>
+</html>
